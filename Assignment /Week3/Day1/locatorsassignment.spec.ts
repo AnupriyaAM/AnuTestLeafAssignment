@@ -66,9 +66,10 @@ test("To Create Individuals", async ({page}) => {
     //Click Individuals
     await page.locator("//span//p[text()='Individuals']").click()
     // //Dropdown icon in the Individuals tab slds-truncate (//span[text()='Individuals'])[1]  //span[text()='Recently Viewed | Individuals']
-    // await page.locator("(//span[text()='Individuals'])[1]").click()
+    await page.locator("(//*[@data-key='chevrondown'])[7]").click()
     //Click New Individual
-    await page.locator("//a[@title='New']").click() 
+    // await page.locator("//a[@title='New']").click() 
+    await page.locator("//span[text()='New Individual']").click() 
     //Enter the Last Name
     await page.locator("//input[@placeholder='Last Name']").fill("Amudhavalli Mohanraj")
     //Save validation and verify individual name
