@@ -1,1 +1,31 @@
+[
+    {
+        "userName": "demoCSR",
+        "password": "crmsfa",
+        "companyName": "BT",
+        "firstName": "Anu",
+        "lastName": "Mohan",
+        "title": "Mrs",
+        "sourceData": "Direct Mail",
+        "marketingCampaignId": "5",
+        "industryEnumId": "6",
+        "currency": "INR - Indian Rupee",
+        "country": "India",
+        "state": "TAMILNADU"
+    },
+    {
+        "userName": "DemoSalesManager",
+        "password": "crmsfa",
+        "companyName": "BT",
+        "firstName": "Anupriya",
+        "lastName": "Amudhavalli Mohanraj",
+        "title": "Mrs",
+        "sourceData": "Direct Mail",
+        "marketingCampaignId": "5",
+        "industryEnumId": "6",
+        "currency": "INR - Indian Rupee",
+        "country": "India",
+        "state": "TAMILNADU"
+    }
+]
 
