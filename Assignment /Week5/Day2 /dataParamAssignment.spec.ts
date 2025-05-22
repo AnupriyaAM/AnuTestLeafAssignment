@@ -5,7 +5,7 @@ import createData from "../../../testData/createLeadData.json"
 
 // validate data using csv
 
-const createLeadData = parse(fs.readFileSync("document/createLeadData.csv"), {
+const createLeadData = parse(fs.readFileSync("testData/createLeadData.csv"), {
     columns: true
 })
 
